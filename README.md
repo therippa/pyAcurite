@@ -1,4 +1,4 @@
-##pyAcurite
+## pyAcurite
 
 A simple service that takes the data from the Acurite SmartHub (to be discontinued Summer 2018 due to Acurite being a bad and stupid company), and sends it off to Weather Underground.
 
@@ -6,7 +6,7 @@ This uses the "listen" method, so you must be able to configure your router to p
 
 Open main.py in an editor and set your STATION_ID and STATION_KEY.  These can be found on your Weather Underground station setting page.
 
-###Usage
+### Usage
 First, install the requirements:
 `pip install requirements.txt`
 
