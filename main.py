@@ -31,7 +31,7 @@ def log_it(title, message, err=False):
 
 def send_it():
     threading.Timer(config.FREQUENCY, send_it).start()
-    if 'action' in station_data:
+    if 'tempf' in station_data:
         pretty_data = json.dumps(station_data)
         pretty_data = pretty_data.replace(station_data['PASSWORD'], '*****')
         log_it('Sending data', pretty_data)
