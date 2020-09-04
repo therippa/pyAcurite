@@ -14,7 +14,8 @@ station_data = {
     'ID': config.STATION_ID,
     'PASSWORD': config.STATION_KEY,
     'realtime': '1',
-    'rtfreq': config.FREQUENCY
+    'rtfreq': config.FREQUENCY,
+    'softwaretype': 'PyAcurite'
 }
 raw_station_data = {}
 pp = pprint.PrettyPrinter(indent=4)
